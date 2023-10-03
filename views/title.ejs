@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Validate Phone Number</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+        /* Custom CSS styles */
+        body {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: rgb(230, 136, 223);
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            box-shadow: 0 2px 10px white;
+            height: 600px;
+            width: 400px;
+            background-color: white;
+            border-radius: 25px;
+            padding-top: 50px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .mov {
+            color: #060708;
+            font-family: initial;
+        }
+
+        .mov1 {
+            color: rgb(207, 145, 58);
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <h3 class="mov">is_valid: <i class="mov1"><%= is_valid%></i></h3>
+        <h3 class="mov">is_formatted_properly: <i class="mov1"><%= is_formatted_properly%></i></h3>
+        <h3 class="mov">country: <i class="mov1"><%= country%></i></h3>
+        <h3 class="mov">location: <i class="mov1"><%= location%></i></h3>
+        <h3 class="mov">timezones : <i class="mov1"><%= timezones%></i></h3>
+        <h3 class="mov">format_national : <i class="mov1"><%= format_national%></i></h3>
+        <h3 class="mov">format_international: <i class="mov1"><%= format_international%></i></h3>
+        <h3 class="mov">format_e164 : <i class="mov1"><%= format_e164%></i></h3>
+        <h3 class="mov">country_code : <i class="mov1"><%= country_code%></i></h3>
+    </div>
+</body>
+</html>
